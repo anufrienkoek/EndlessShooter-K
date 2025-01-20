@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelUserStore">
+    <attachedFolders>
+      <Path>Assets/_Project/CodeBase/Data</Path>
+      <Path>Assets/_Project/CodeBase/Hero</Path>
+    </attachedFolders>
+    <explicitIncludes>
+      <Path>$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ai.navigation@2.0.4</Path>
+      <Path>$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.collab-proxy@2.6.0</Path>
+      <Path>$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ide.rider@3.0.31</Path>
+      <Path>$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ide.visualstudio@2.0.22</Path>
+      <Path>$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.inputsystem@1.11.2</Path>
+      <Path>$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.searcher@4.9.2</Path>
+      <Path>$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.test-framework@1.4.5</Path>
+      <Path>$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.timeline@1.8.7</Path>
+      <Path>$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.visualscripting@1.9.4</Path>
+      <Path>Packages</Path>
+      <Path>ProjectSettings</Path>
+    </explicitIncludes>
+    <explicitExcludes>
+      <Path>.idea</Path>
+      <Path>Logs</Path>
+      <Path>Temp</Path>
+      <Path>UserSettings</Path>
+      <Path>obj</Path>
+    </explicitExcludes>
+  </component>
+</project>
