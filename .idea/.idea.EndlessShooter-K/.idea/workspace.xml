@@ -1,60 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7531633b-2789-4949-a6d7-6af591e1fede" name="Default Changelist" comment="" />
+    <list default="true" id="7531633b-2789-4949-a6d7-6af591e1fede" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Data/KillCounter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Data/KillCounter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Enemy/EnemyAttack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Enemy/EnemyAttack.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Hud/KillCounterUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Services/Reset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Services/Reset/IResetPositionService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Services/Reset/IResetPositionService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Services/Reset/ResetPositionService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Services/Reset/ResetPositionService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/Attack.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/Attack/BaseAttacker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/Attack/BaseAttacker.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/BulletLogic.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/BulletLogic/Bullet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/BulletLogic/Bullet.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/BulletLogic/BulletPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/BulletLogic/BulletPool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/BulletLogic/IBulletPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/BulletLogic/IBulletPool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/Damageable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/ExitArea.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/ExitArea.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EndlessShooter-K/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EndlessShooter-K/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EndlessShooter-K/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EndlessShooter-K/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EndlessShooter-K/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EndlessShooter-K/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EndlessShooter-K/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EndlessShooter-K/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/CodeBase/Data/PlayerProgress.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Data/PlayerProgress.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/CodeBase/Data/Vector3Data.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Data/Vector3Data.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/CodeBase/Data/WorldData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Data/WorldData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/AssetManagement/AssetPath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/AssetManagement/AssetPath.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Factory/GameFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Factory/GameFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Factory/IGameFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Factory/IGameFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Game.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Services/Input/InputService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Services/Input/InputService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Services/SaveLoad/SaveLoadService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Services/SaveLoad/SaveLoadService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/StateMachine/BootstrapState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/StateMachine/BootstrapState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/StateMachine/GameStateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/StateMachine/GameStateMachine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/StateMachine/LoadLevelState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/StateMachine/LoadLevelState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/StateMachine/LoadProgressState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/StateMachine/LoadProgressState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Resources/Hero/Hero.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Resources/Hero/Hero.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Resources/Hero/Hero.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Resources/Hero/Hero.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Resources/Hud/Hud.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Resources/Hud/Hud.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Resources/PlayerInitialPoint.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Resources/PlayerInitialPoint.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/StateMachine/GameStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/CodeBase/Hud/KillCounterUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/CodeBase/Data/PlayerProgress.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/CodeBase/CameraLogic/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Services/AllServices.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/CodeBase/Hero/HeroMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/Damageable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/CodeBase/Enemy/AgentMoveToPlayer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/GameBootstrapper.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Hero/HeroMove1.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/CameraLogic/CameraFollow.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/GameBootstrapper.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/SceneLoader.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/StateMachine/IState.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/StateMachine/GameLoopState.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/GameFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/GameFactory/GameFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/AssetManagement/AssetPath.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/GameFactory/IGameFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/AssetManagement/IAssetProvider.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/AssetManagement/IAssets.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Services/AllServices.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Services/Input/IInputService.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/AssetManagement/AssetProvider.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Game.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Services/AllServices.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Services/PersistentProgress/IPersistentProgressService.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Services/PersistentProgress/PersistentProgressService.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Services/PersistentProgress/ISavedProgress.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/StateMachine/GameProgressState.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/StateMachine/LoadProgressState.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/StateMachine/GameStateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Services/SaveLoad/ISaveLoadService.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Services/SaveLoad/SaveLoadService.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Data/DataExtensions.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Data/PlayerProgress.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Data/PositionOnLevel.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Data/WorldData.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/StateMachine/BootstrapState.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Hero/HeroMove.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/StateMachine/LoadLevelState.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/StateMachine/LoadProgressState.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Enemy/AgentMoveToPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Enemy/Attack.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/Bullet/ExitArea.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/AssetManagement/AssetPath.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/ExitArea.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/Bullet/IBulletPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/Bullet/BulletPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/Bullet/BulletCore.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Data/PlayerProgress.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/BulletLogic/BulletCore.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Game.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/StateMachine/ResetState.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Services/Damageable/ShootingController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Hero/HeroShoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Services/Input/InputService.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/Attack.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/BulletLogic/IBulletPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/Attack/AttackController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/Attack/EnemyAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Enemy/EnemyAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/Attack/BaseAttacker.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Hero/HeroAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Hud/KillCounterUI.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Factory/GameFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Factory/IGameFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Services/Reset/ResetService.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Services/SaveLoad/SaveLoadService.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Services/Reset/IResettable.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Data/Vector3Data.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Data/WorldData.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Services/Reset/IResetPositionService.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/StateMachine/BootstrapState.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/StateMachine/GameStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/Damageable.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/BulletLogic/BulletPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/StateMachine/LoadLevelState.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Logic/BulletLogic/Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/CodeBase/Infrastructure/Services/Reset/ResetPositionService.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="2rqICKYDlxOleh9MyGnu4uIwT9C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -103,6 +181,10 @@
       <workItem from="1737280067195" duration="712000" />
       <workItem from="1737280839938" duration="11111000" />
       <workItem from="1737292790660" duration="3732000" />
+      <workItem from="1737569185710" duration="1195000" />
+      <workItem from="1737573317610" duration="3617000" />
+      <workItem from="1737660073732" duration="9269000" />
+      <workItem from="1738009923709" duration="8906000" />
     </task>
     <servers />
   </component>
@@ -111,6 +193,18 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
@@ -119,11 +213,11 @@
       <screen x="2560" y="523" width="1920" height="1008" />
     </state>
     <state x="2974" y="694" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.523.1920.1008/0.0.1707.1019@2560.523.1920.1008" timestamp="1737292637640" />
-    <state x="3248" y="889" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1737292592245">
+    <state x="3248" y="889" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1737669689660">
       <screen x="2560" y="523" width="1920" height="1008" />
     </state>
     <state x="612" y="370" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/2560.523.1920.1008/0.0.1707.1019@0.0.1707.1019" timestamp="1737281122408" />
-    <state x="3248" y="889" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/2560.523.1920.1008/0.0.1707.1019@2560.523.1920.1008" timestamp="1737292592245" />
+    <state x="3248" y="889" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/2560.523.1920.1008/0.0.1707.1019@2560.523.1920.1008" timestamp="1737669689660" />
     <state x="2652" y="615" width="1736" height="848" key="DiffContextDialog" timestamp="1737292723195">
       <screen x="2560" y="523" width="1920" height="1008" />
     </state>
@@ -208,9 +302,26 @@
     </state>
     <state width="1663" height="366" key="GridCell.Tab.3.right/2560.523.1920.1008/0.0.1707.1019@0.0.1707.1019" timestamp="1737280886655" />
     <state width="1877" height="371" key="GridCell.Tab.3.right/2560.523.1920.1008/0.0.1707.1019@2560.523.1920.1008" timestamp="1737292723057" />
-    <state x="3354" y="740" key="RiderGenerateDialog" timestamp="1737294729595">
+    <state x="706" y="219" key="RiderGenerateDialog" timestamp="1738017611251">
+      <screen x="0" y="0" width="1707" height="1019" />
+    </state>
+    <state x="706" y="219" key="RiderGenerateDialog/2560.523.1920.1008/0.0.1707.1019@0.0.1707.1019" timestamp="1738017611251" />
+    <state x="3354" y="740" key="RiderGenerateDialog/2560.523.1920.1008/0.0.1707.1019@2560.523.1920.1008" timestamp="1737670100508" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1737669476686">
       <screen x="2560" y="523" width="1920" height="1008" />
     </state>
-    <state x="3354" y="740" key="RiderGenerateDialog/2560.523.1920.1008/0.0.1707.1019@2560.523.1920.1008" timestamp="1737294729595" />
+    <state width="498" height="446" key="SwitcherDM/2560.523.1920.1008/0.0.1707.1019@2560.523.1920.1008" timestamp="1737669476686" />
+    <state x="2652" y="615" width="1736" height="848" key="VCS.FileHistoryDialog" timestamp="1737570392430">
+      <screen x="2560" y="523" width="1920" height="1008" />
+    </state>
+    <state x="2652" y="615" width="1736" height="848" key="VCS.FileHistoryDialog/2560.523.1920.1008/0.0.1707.1019@0.0.1707.1019" timestamp="1737570392430" />
+    <state x="2783" y="585" width="1196" height="1005" key="dock-window-1" timestamp="1738010258506">
+      <screen x="2560" y="523" width="1920" height="1008" />
+    </state>
+    <state x="2783" y="585" width="1196" height="1005" key="dock-window-1/2560.523.1920.1008/0.0.1707.1019@0.0.1707.1019" timestamp="1738010258506" />
+    <state x="3183" y="746" key="search.everywhere.popup" timestamp="1737669474506">
+      <screen x="2560" y="523" width="1920" height="1008" />
+    </state>
+    <state x="3183" y="746" key="search.everywhere.popup/2560.523.1920.1008/0.0.1707.1019@2560.523.1920.1008" timestamp="1737669474506" />
   </component>
 </project>

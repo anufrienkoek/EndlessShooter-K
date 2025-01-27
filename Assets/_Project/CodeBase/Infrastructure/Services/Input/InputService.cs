@@ -4,7 +4,7 @@ namespace _Project.CodeBase.Infrastructure.Services.Input
 {
     public class InputService : IInputService
     {
-        private const string Attack = "Attack";
+        private const string Attack = "Fire1";
         private const string Vertical = "Vertical";
         private const string Horizontal = "Horizontal";
 

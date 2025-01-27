@@ -3,6 +3,7 @@ using _Project.CodeBase.Infrastructure.Factory;
 using _Project.CodeBase.Infrastructure.Services;
 using _Project.CodeBase.Infrastructure.Services.Input;
 using _Project.CodeBase.Infrastructure.Services.PersistentProgress;
+using _Project.CodeBase.Infrastructure.Services.Reset;
 using _Project.CodeBase.Infrastructure.Services.SaveLoad;
 
 namespace _Project.CodeBase.Infrastructure.StateMachine
@@ -24,15 +25,10 @@ namespace _Project.CodeBase.Infrastructure.StateMachine
             RegisterServices();
         }
 
-        public void Enter()
-        {
+        public void Enter() => 
             _sceneLoader.Load(Init, EnterLoadLevel);
-        }
 
-        public void Exit()
-        {
-            
-        }
+        public void Exit() { }
 
         private void EnterLoadLevel() =>
             _stateMachine.Enter<LoadProgressState>();
@@ -44,6 +40,9 @@ namespace _Project.CodeBase.Infrastructure.StateMachine
             _services.RegisterSingle<ISaveLoadService>(new SaveLoadService());
             _services.RegisterSingle<IPersistentProgressService>(new PersistentProgressService());
             _services.RegisterSingle<IGameFactory>(new GameFactory(_services.Single<IAssets>()));
+            _services.RegisterSingle<IResetPositionService>(new ResetPositionService(
+                AllServices.Container.Single<IPersistentProgressService>(),
+                AllServices.Container.Single<ISaveLoadService>()));
         }
 
         private static IInputService InputService() => 

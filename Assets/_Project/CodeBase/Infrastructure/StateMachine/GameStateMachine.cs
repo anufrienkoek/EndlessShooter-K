@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using _Project.CodeBase.Infrastructure.Factory;
 using _Project.CodeBase.Infrastructure.Services;
 using _Project.CodeBase.Infrastructure.Services.PersistentProgress;
+using _Project.CodeBase.Infrastructure.Services.Reset;
 using _Project.CodeBase.Infrastructure.Services.SaveLoad;
 using UnityEngine;
 
@@ -18,7 +19,7 @@ namespace _Project.CodeBase.Infrastructure.StateMachine
             _states = new Dictionary<Type, IExitableState>()
             {
                 [typeof(BootstrapState)] = new BootstrapState(this, sceneLoader, services),
-                [typeof(LoadLevelState)] = new LoadLevelState(this, sceneLoader, services.Single<IGameFactory>()),
+                [typeof(LoadLevelState)] = new LoadLevelState(this, sceneLoader, services.Single<IGameFactory>(), services.Single<IPersistentProgressService>(), services.Single<IResetPositionService>()),
                 [typeof(LoadProgressState)] = new LoadProgressState(this, services.Single<IPersistentProgressService>(), services.Single<ISaveLoadService>()),
                 [typeof(GameLoopState)] = new GameLoopState(this),
             };

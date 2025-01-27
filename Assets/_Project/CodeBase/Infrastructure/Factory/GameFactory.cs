@@ -1,29 +1,67 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using _Project.CodeBase.Data;
 using _Project.CodeBase.Infrastructure.AssetManagement;
 using _Project.CodeBase.Infrastructure.Services.PersistentProgress;
 using _Project.CodeBase.Infrastructure.StateMachine;
+using _Project.CodeBase.Logic.BulletLogic;
 using UnityEngine;
 
 namespace _Project.CodeBase.Infrastructure.Factory
 {
     public class GameFactory : IGameFactory
     {
-        private readonly IAssets _assets;
-        
+        public event Action HeroCreated;
+        public event Action EnemyCreated;
+
         public List<ISavedProgressReader> ProgressReaders { get; } = new List<ISavedProgressReader>();
         public List<ISavedProgress> ProgressWriters { get; } = new List<ISavedProgress>();
+        public GameObject HeroGameObject { get; private set; }
 
-        public GameFactory(IAssets assets)
-        {
+        private readonly IAssets _assets;
+        
+        private IBulletPool _playerBulletPool;
+        private IBulletPool _enemyBulletPool;
+
+        public GameFactory(IAssets assets) => 
             _assets = assets;
-            
+
+        public GameObject CreateHero(GameObject at, LoadLevelState loadLevelState)
+        {
+            GameObject hero = InstantiateRegistered(AssetPath.HeroPath, at.transform.position);
+            HeroCreated?.Invoke();
+
+            HeroGameObject = hero;
+
+            return hero;
         }
 
-        public GameObject CreateHero(GameObject at, LoadLevelState loadLevelState) => 
-            InstantiateRegistered(AssetPath.HeroPath, at.transform.position);
+        public GameObject CreateEnemy(GameObject at, LoadLevelState loadLevelState)
+        {
+            GameObject enemy = InstantiateRegistered(AssetPath.EnemyPath, at.transform.position);
+            EnemyCreated?.Invoke();
+
+            return enemy;
+        }
 
         public void CreateHud() => 
             InstantiateRegistered(AssetPath.HudPath);
+
+        public void CreateBulletPools(GameObject playerBulletPrefab, GameObject enemyBulletPrefab, int poolSize,
+            KillCounter progressKillCounter)
+        {
+            _playerBulletPool = new BulletPool(playerBulletPrefab, poolSize, progressKillCounter);
+            _enemyBulletPool = new BulletPool(enemyBulletPrefab, poolSize, progressKillCounter);
+
+            _playerBulletPool.InitializePool();
+            _enemyBulletPool.InitializePool();
+        }
+
+        public IBulletPool GetPlayerBulletPool() => 
+            _playerBulletPool;
+
+        public IBulletPool GetEnemyBulletPool() => 
+            _enemyBulletPool;
 
         private GameObject InstantiateRegistered(string prefabPath, Vector3 position)
         {
@@ -36,6 +74,7 @@ namespace _Project.CodeBase.Infrastructure.Factory
         {
             GameObject gameObject = _assets.Instantiate(prefabPath);
             RegisterProgressWatcher(gameObject);
+            
             return gameObject;
         }
 

@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 3
   tags:
   - InitialPoint
+  - PlayerInitialPoint
+  - EnemyInitialPoint
+  - PlayerBullet
+  - EnemyBullet
   layers:
   - Default
   - TransparentFX
